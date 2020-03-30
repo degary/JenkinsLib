@@ -1,5 +1,5 @@
 #!groovy
-@Library('jenkinslib') _     
+@Library('sharelib') _     
 def tools = new org.devops.tools()
 def build = new org.devops.build()
 String buildType = ${env.buildType}
